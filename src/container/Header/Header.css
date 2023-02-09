@@ -1,0 +1,37 @@
+.app__header {
+  background-color: var(--color-janbli);
+  box-shadow: 0px 15px 10px -15px #111;    
+}
+
+.app__header-h1 {
+  color: var(--color-black);
+  font-size: 30px;
+}
+
+.app__header-img img {
+  width: 80%;
+}
+
+@media screen and (min-width: 2000px) {
+  .app__header-h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .app__header-h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app__header-h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .app__header-h1 {
+    font-size: 30px;
+  }
+}
